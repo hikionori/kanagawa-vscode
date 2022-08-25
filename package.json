@@ -1,20 +1,26 @@
 {
-  "name": "katagawa-vscode",
-  "displayName": "katagawa-vscode",
-  "description": "The VSCode implementation of katagawa-nvim",
+  "name": "kanagawa-vscode",
+  "displayName": "kanagawa-vscode",
+  "description": "The VSCode implementation of kanagawa-nvim",
+  "publisher": "hikionori",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hikionori/katagawa-vscode.git"
+  },
   "engines": {
     "vscode": "^1.70.0"
   },
+  "icon": "./assets/kanagawa@2x.png",
   "categories": [
     "Themes"
   ],
   "contributes": {
     "themes": [
       {
-        "label": "KatagawaTheme",
+        "label": "KanagawaTheme",
         "uiTheme": "vs-dark",
-        "path": "./themes/KatagawaTheme-color-theme.json"
+        "path": "./themes/KanagawaTheme-color-theme.json"
       }
     ]
   },
